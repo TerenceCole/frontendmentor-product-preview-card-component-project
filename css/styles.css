@@ -1,0 +1,23 @@
+.background {
+  background-color: hsl(30, 38%, 92%);
+  width: 1440px;
+}
+
+.content-container {
+  width: 50%;
+}
+
+.image-container {
+}
+
+.text-container {
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

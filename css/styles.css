@@ -1,3 +1,8 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .background {
   background-color: hsl(30, 38%, 92%);
   width: 1440px;
@@ -5,12 +10,30 @@
 
 .content-container {
   width: 50%;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
 }
 
 .image-container {
 }
 
+.image-perfume {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
 .text-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 80%;
+}
+
+.prices-container {
+  display: flex;
 }
 
 .attribution {
